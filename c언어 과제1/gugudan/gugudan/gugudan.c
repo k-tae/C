@@ -7,13 +7,12 @@ int main(void)
 	{
 		float a;
 		int n, i;
-		printf("0을 입력하면 종료됩니다.\n");
-		printf("양의 정수를 입력하세요: ");
+		printf("양의 정수를 입력하세요(0을 입력하면 종료) : ");
 		scanf("%f", &a);
 		n = (int)a;
 		if (a == 0)
 		{
-			printf("구구단을 종료합니다.");
+			printf("프로그램을 종료합니다.");
 				break;
 		}
 		else if (a < 1 || n!=a)
